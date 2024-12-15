@@ -2272,7 +2272,24 @@ button,
     margin-top: 0;
     padding-top: 0; }
 
+    .icon.solid {
+      align-items: center;        /* Center vertically */
+      justify-content: center;    /* Center horizontally */
+      width: 3em;                 /* Adjust width to match FontAwesome size */
+      height: 3em;                /* Adjust height */
+      position: relative;
+  }
+  
+  .icon.solid img {
+      width: 40%;                 /* Image fits inside without overflowing */
+      height: 40%;                /* Maintain proportion */
+      object-fit: contain;        /* Avoid distortion */
+      transform: translateY(34%); /* Shift the image slightly downward */
+  }
+  
+      
 
+  
 
 
 
